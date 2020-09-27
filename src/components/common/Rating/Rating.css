@@ -1,0 +1,25 @@
+.rating {
+    padding-top: 8px;
+    font-size: 14px;
+    color: #0000008A;
+    text-decoration: none;
+}
+
+.rating a {
+    font-size: 14px;
+    color: #0000008A;
+    text-decoration: none;
+}
+
+.rating a:hover {
+    text-decoration: underline;
+}
+
+.rating__star {
+    position: relative;
+    margin: 0 10px;
+}
+
+.rating__star svg {
+    margin: 0 2px;
+}

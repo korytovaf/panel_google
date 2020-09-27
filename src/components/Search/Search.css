@@ -1,0 +1,32 @@
+.search-container {
+    position: fixed;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 392px;
+    height: 50px;
+    margin: 8px 0 8px 8px;
+    padding: 8px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2), 0 -1px 0 rgba(0,0,0,0.02);
+}
+
+.search_form {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-grow: 1;
+}
+
+.search_form input {
+    flex-grow: 1;
+    margin: 6px 20px;
+    border: none;
+    font-size: 15px;
+}
+
+.search-container__button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
