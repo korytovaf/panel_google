@@ -4,7 +4,7 @@ import photo from '../../img/2019-08-21.jpg'
 import Search from "../Search/Search";
 import Rating from "../common/Rating/Rating";
 import Tasks from "../Task/Tasks";
-import place from '../../img/place_gm_blue_24dp.png';
+import Info from "../Info/Info";
 
 const Panel = () => {
 
@@ -29,12 +29,7 @@ const Panel = () => {
                         <p>Из-за пандемии COVID-19 данные о часах работы и услугах могут быть неточными.</p>
                     </div>
                 </div>
-
-                <div className='address'>
-                    <img src={place} alt="place"/>
-                    <div className='address__text'>Плехановская ул., 29, Воронеж, Воронежская обл., 394018</div>
-
-                </div>
+                <Info />
 
             </div>
 
